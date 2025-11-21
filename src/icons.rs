@@ -16,10 +16,10 @@ pub static ICONS: Lazy<HashMap<&'static str, &'static str>> = Lazy::new(|| {
         ("rs", "🦀"), // Rust
         ("lsp", "🦖"), // Lisp and Common Lisp
         ("java", "☕"), // Java
-        ("lua", "🌕"), // Lua
+        ("lua", "🌕"), ("luac", "🌕"), // Lua
         ("nim", "👑"), // Nim
         ("ml", "🐫"), // OCaml
-        ("py", "🐍"),
+        ("py", "🐍"), ("pyc", "🐍"), // Python
         // Documents
         ("docx", "📘"), // Word Document
         ("xlsx", "📗"), // Excel Spreadsheet
