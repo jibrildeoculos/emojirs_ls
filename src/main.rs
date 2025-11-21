@@ -1,9 +1,5 @@
-use crate::cli::cli;
-
-mod cli;
-mod dir;
-mod icons;
+use emojirs_ls::cli;
 
 fn main() {
-  cli();
+  cli::cli();
 }
