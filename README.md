@@ -23,7 +23,7 @@ Rust toolchain (Cargo & rustc) installed. You can get it from: https://rustup.rs
 
 ## Usage
 
-The usage process is similar to ls
+The usage process is similar to `ls`
 
 ```sh
 emojirs_ls documents/ # Show directory
