@@ -9,7 +9,6 @@ pub struct Dir {
 
 impl Dir {
     pub fn list<P: AsRef<Path>>(&self, dir: P) -> std::io::Result<()> { 
-
         let path = dir.as_ref();
 
         if !path.is_dir() {
@@ -27,7 +26,6 @@ impl Dir {
             if !self.dotfiles && name.starts_with('.') {
                 continue;
             }
-
             match path.is_dir() {
                 true => {
                     println!(" {} 📁 {}", "—".bright_blue(), name.bright_white())
