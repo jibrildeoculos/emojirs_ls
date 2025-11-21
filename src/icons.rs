@@ -41,5 +41,6 @@ pub static ICONS: Lazy<HashMap<&'static str, &'static str>> = Lazy::new(|| {
         ("exe", "🧱"),
         // Security
         ("lock", "🔒"),
+        ("key", "🔑")
     ])
 });
