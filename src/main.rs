@@ -1,3 +1,5 @@
+// main.rs
+
 use emojirs_ls::cli;
 
 fn main() {
