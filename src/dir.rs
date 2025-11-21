@@ -28,7 +28,7 @@ impl Dir {
             }
             match path.is_dir() {
                 true => {
-                    println!(" {} 📁 {}", "—".bright_blue(), name.bright_white())
+                    println!("{} 📁 {}", "—".bright_blue(), name.bright_white())
                 }
             
                 false => {
@@ -36,7 +36,7 @@ impl Dir {
                 
                     let icon = ICONS.get(ext).unwrap_or(&"📄");
 
-                    println!(" {} {} {}", "—".bright_green(), icon, name.bright_white());
+                    println!("{} {} {}", "—".bright_green(), icon, name.bright_white());
                 }
             }
         }
