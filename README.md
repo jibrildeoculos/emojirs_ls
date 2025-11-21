@@ -1,6 +1,6 @@
 # emojirs_ls
 
-<img src="assets/demo.png" alt="Demo" width="400px" />
+<img src="assets/demo.png" alt="Demo" width="500px" />
 
 **emojirs_ls** is an alternative to `ls`, written in Rust, fast and minimalist. It displays files in a clear and intuitive way, using emojis to make terminal navigation more visual and enjoyable.
 
